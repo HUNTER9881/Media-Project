@@ -50,6 +50,8 @@ app.use('/api/catalog', require('./router/catalogRouter'))
 app.use('/api/country', require('./router/countryRouter'))
 app.use('/api/genre', require('./router/genreRouter'))
 app.use('/api/language', require('./router/languageRouter'))
+app.use('/api/faq', require('./router/faqRouter'))
+app.use('/api/contact', require('./router/contactRouter'))
 
 
 
